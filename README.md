@@ -16,20 +16,21 @@ This project demonstrates web scraping and data analysis skills by extracting an
 ### Deliverable 2: Mars Weather Analysis
 Used Splinter and Beautiful Soup to scrape weather data from the Mars Temperature Data Site.
 Parsed the HTML table and converted it into a Pandas DataFrame with the following columns:
-id, terrestrial_date, sol, ls, month, min_temp, pressure.
+- id, terrestrial_date, sol, ls, month, min_temp, pressure.
+
 Performed data analysis to answer the following questions:
-How many months exist on Mars?
-How many Martian days' worth of data exist in the dataset?
-What are the coldest and warmest months on Mars (average minimum temperature)?
-Which months have the lowest and highest atmospheric pressure?
-How many terrestrial days exist in a Martian year?
+1. How many months exist on Mars?
+2. How many Martian days' worth of data exist in the dataset?
+3. What are the coldest and warmest months on Mars (average minimum temperature)?
+4. Which months have the lowest and highest atmospheric pressure?
+5. How many terrestrial days exist in a Martian year?
 
 Visualized results using bar charts and plotted daily minimum temperatures to estimate a Martian year.
 Exported the final DataFrame to a CSV file.
 
 ### Technologies Used
-Python: Core programming language.
-Splinter: Automated browser navigation.
-Beautiful Soup: HTML parsing for data extraction.
-Pandas: Data manipulation and analysis.
-Matplotlib: Data visualization.
+- Python: Core programming language.
+- Splinter: Automated browser navigation.
+- Beautiful Soup: HTML parsing for data extraction.
+- Pandas: Data manipulation and analysis.
+- Matplotlib: Data visualization.
